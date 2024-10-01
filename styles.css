@@ -1,0 +1,41 @@
+body{
+    background-color: var(--colorGrey);
+}
+/* Hero */
+.hero{
+    width: 100vw;
+
+    display: flex;
+}
+/* NavContainer */
+.navContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    background-color: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+/* Logo */
+.logoContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.logoContainer--icon{
+    font-size: 2rem;
+}
+/* Nav */
+.nav__list, .settings__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav__item:hover, .settings__item:hover{
+    color: var(--colorSecondary);
+}

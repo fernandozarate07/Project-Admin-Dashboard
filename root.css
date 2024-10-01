@@ -3,5 +3,18 @@
     --colorWhite: #f8f9fa;
     --colorGrey: #ced4da;
     --colorPrimary: #0d3b66;
-    --colorSecondary: #faf0ca;
+    --colorSecondary: #cc4e3a;
+}
+@font-face{font-family:'Poppins';src:url('/Font/Poppins/Poppins-Regular.ttf') format('truetype');}
+@font-face{font-family:'Roboto';src:url('/Font/Roboto/Roboto-Regular.ttf') format('truetype');}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
